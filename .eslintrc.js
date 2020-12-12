@@ -17,6 +17,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': ['error'],
+    'import/extensions': 'off',
   },
   settings: {
     'import/parsers': {
@@ -28,4 +29,5 @@ module.exports = {
       },
       typescript: {},
     },
+  },
 };
